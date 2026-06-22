@@ -9,7 +9,7 @@ This project includes an automated Python pipeline to clean messy clinical logs 
 2. Visualization & Reporting (R/ggplot2):
  - implemented box plot graph(geom_boxplot) split by Treatment_Group to see if the average blood pressure drops for patients taking Drug A & B compared to patients     on Placebo
  - implemented scatter plot with linear modelling trends(geom_smooth) to show if the drug loses control/efficacy as pateint gets older
-
+ - implemnted demographic faceting (facet_wrap) to indentify if biological sex alter drugs impact
 
  3. Patient Directory Breaakdown
  - raw_ptient_logs.txt: uncleaned initial text file logs from clinical database entries
