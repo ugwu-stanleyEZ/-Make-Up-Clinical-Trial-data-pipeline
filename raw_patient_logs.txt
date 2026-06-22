@@ -1,0 +1,11 @@
+Patient_ID|Age|Gender|Treatment_Group|Blood_Pressure_mmHg
+Pt-01|45|Male|Drug_A|135 mmHg
+pt-02|62|female|Drug_B|142 mmhg
+Pt-03|29|M|Placebo|118    
+pt-04|NA|female|Drug_A|150 mmHg
+Pt-05|53|Male|Drug_B|128 mmHg
+pt-06|38|female|Placebo|122 
+Pt-07|71|M|Drug_A|165 mmHg  
+pt-08|49|female|Placebo|missing
+Pt-09|60|Female|Drug_B|139 mmHg
+Pt-10|34|Male|Placebo|115 mmHg 
