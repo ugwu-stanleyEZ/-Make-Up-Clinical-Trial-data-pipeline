@@ -3,7 +3,7 @@
 
 library(tidyverse)
 #loading the cleaned data file in R
-clean_patient_log<- read_csv("clean_patient_logs.csv")
+clean_patient_log<- read_csv("clean_p_log.csv")
 #now to ensure i have the data tupe and bloodpressure  double/numeric type
 glimpse(clean_patient_log)
 
@@ -15,7 +15,7 @@ library(tidyverse)
 options(repr.plot.width = 6, repr.plot.height =4)
 
 #loading the cleaned data file in R
-clean_patient_log<- read_csv("clean_patient_logs.csv")
+clean_patient_log<- read_csv("clean_p_log.csv")
 #now to ensure i have the data tupe and bloodpressure  double/numeric type
 #glimpse(clean_patient_log)
 
