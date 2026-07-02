@@ -1,0 +1,9 @@
+Patient_ID,Age,Gender,Treatment_Group,Blood_Pressure_mmHg
+Pt-01,45.0,Male,Drug_A,135
+pt-02,62.0,Female,Drug_B,142
+Pt-03,29.0,Male,Placebo,118
+Pt-05,53.0,Male,Drug_B,128
+pt-06,38.0,Female,Placebo,122
+Pt-07,71.0,Male,Drug_A,165
+Pt-09,60.0,Female,Drug_B,139
+Pt-10,34.0,Male,Placebo,115

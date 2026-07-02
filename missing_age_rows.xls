@@ -1,0 +1,2 @@
+Patient_ID,Age,Gender,Treatment_Group,Blood_Pressure_mmHg
+pt-04,,Female,Drug_A,150
