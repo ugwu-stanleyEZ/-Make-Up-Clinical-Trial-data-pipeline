@@ -26,7 +26,6 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 │
 ├── 📁 images/
 │   
-│  
 │
 ├── 📁 data/
 │   ├── 📄 raw_patient_logs.txt
@@ -41,22 +40,9 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 └── 📝 README.md
 
 
-
-
-
-# 🔬 Make-Up Clinical Trial Data Pipeline & Analytics
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.Automated)](https://www.python.org)
-[![Pandas](https://img.shields.io/badge/Library-Pandas-orange)](https://pandas.pydata.org)
-[![R](https://img.shields.io/badge/R-ggplot2-blue)](https://ggplot2.tidyverse.org)
-
-An end-to-end data engineering and analytics pipeline built to handle, clean, and visualize messy, real-world clinical drug trial logs. This project takes raw, unformatted patient logs, transforms them into high-quality clinical data datasets, and uncovers actionable insights on drug trial trends.
-
-
-
 ## 📊 Analytics & Key Findings
 
-> **Note:** Below are the visualizations and statistical highlights generated during the exploratory phase of the clean dataset.
+> **Note:** Below are the visualizations highlights generated during the exploratory phase of the clean dataset.
 
 ### 1. Patient Distribution and Demographics
 *   *Insert what you noticed here. e.g., "The data showed a heavy concentration of trial participants within the 25–40 age bracket, allowing us to accurately gauge side-effect trends among younger cohorts."*
@@ -71,7 +57,18 @@ An end-to-end data engineering and analytics pipeline built to handle, clean, an
 #### Visualizing the Drug Trial Performance:
 ![Trial Trends Plot](images/trial_trends.png)
 
----
+
+
+# 🔬 Make-Up Clinical Trial Data Pipeline & Analytics
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.Automated)](https://www.python.org)
+[![Pandas](https://img.shields.io/badge/Library-Pandas-orange)](https://pandas.pydata.org)
+[![R](https://img.shields.io/badge/R-ggplot2-blue)](https://ggplot2.tidyverse.org)
+
+An end-to-end data engineering and analytics pipeline built to handle, clean, and visualize messy, real-world clinical drug trial logs. This project takes raw, unformatted patient logs, transforms them into high-quality clinical data datasets, and uncovers actionable insights on drug trial trends.
+
+
+
 
 ## 🚀 How To Run the Pipeline Locally
 
