@@ -47,11 +47,11 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 ### 1. Clinical Drugs Efficacy
 implemented box plot graph(geom_boxplot) split by Treatment_Group to see if the average blood pressure drops for patients taking Drug A & B compared to patients     on Placebo
 
-#### Visualizing the Demographic Spread:
+#### 2. Visualizing if blood presure climbs as the patients get older:
 ![Patient Age Distribution](images/age_distribution.png) 
-*(How to add this: Create a folder named `images` in your repository, upload your plot image as `age_distribution.png`, and this link will display it automatically!)*
+implemented scatter plot with linear modelling trends(geom_smooth) to show if the drug loses control/efficacy as pateint gets older
 
-### 2. Patient Distribution and Demographics
+### 3. Patient Distribution and Demographics
 *   *Insert your analytical observation here. e.g., "After cleaning the text discrepancies, the R analysis revealed a distinct, positive trend in recovery speed for the primary trial group relative to the control group."*
 
 #### Visualizing the Drug Trial Performance:
