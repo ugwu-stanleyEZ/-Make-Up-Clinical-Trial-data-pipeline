@@ -44,14 +44,14 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 
 > **Note:** Below are the visualizations highlights generated during the exploratory phase of the clean dataset.
 
-### 1. Patient Distribution and Demographics
-*   *Insert what you noticed here. e.g., "The data showed a heavy concentration of trial participants within the 25–40 age bracket, allowing us to accurately gauge side-effect trends among younger cohorts."*
+### 1. Clinical Drugs Efficacy
+implemented box plot graph(geom_boxplot) split by Treatment_Group to see if the average blood pressure drops for patients taking Drug A & B compared to patients     on Placebo
 
 #### Visualizing the Demographic Spread:
 ![Patient Age Distribution](images/age_distribution.png) 
 *(How to add this: Create a folder named `images` in your repository, upload your plot image as `age_distribution.png`, and this link will display it automatically!)*
 
-### 2. Clinical Efficacy and Treatment Trends
+### 2. Patient Distribution and Demographics
 *   *Insert your analytical observation here. e.g., "After cleaning the text discrepancies, the R analysis revealed a distinct, positive trend in recovery speed for the primary trial group relative to the control group."*
 
 #### Visualizing the Drug Trial Performance:
