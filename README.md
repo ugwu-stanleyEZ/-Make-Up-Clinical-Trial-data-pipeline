@@ -1,6 +1,12 @@
 # -Make-Up-Clinical-Trial-data-pipeline
 This project includes an automated Python pipeline to clean messy clinical logs using Python(Pandas) and using R ggplot2 visualization engine to analyze drug trial trends
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.Automated)](https://www.python.org)
+[![Pandas](https://img.shields.io/badge/Library-Pandas-orange)](https://pandas.pydata.org)
+[![R](https://img.shields.io/badge/R-ggplot2-blue)](https://ggplot2.tidyverse.org)
+
+
+
 ## 📌 Project Overview & The Challenge
 In clinical trials, data integrity is everything. Missing data points, incorrectly formatted patient logs, and edge-case age inputs can skew efficacy reporting and delay regulatory approvals. 
 
@@ -51,19 +57,15 @@ implemented box plot graph(geom_boxplot) split by Treatment_Group to see if the 
 ![Patient Age Distribution](images/age_distribution.png) 
 implemented scatter plot with linear modelling trends(geom_smooth) to show if the drug loses control/efficacy as pateint gets older
 
-### 3. Patient Distribution and Demographics
-*   *Insert your analytical observation here. e.g., "After cleaning the text discrepancies, the R analysis revealed a distinct, positive trend in recovery speed for the primary trial group relative to the control group."*
+### 3. visualization to determine if biological sex alter the drugs impact:
+implemnted demographic faceting (facet_wrap) to indentify if biological sex alter drugs impact
 
-#### Visualizing the Drug Trial Performance:
 ![Trial Trends Plot](images/trial_trends.png)
 
 
 
-# 🔬 Make-Up Clinical Trial Data Pipeline & Analytics
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.Automated)](https://www.python.org)
-[![Pandas](https://img.shields.io/badge/Library-Pandas-orange)](https://pandas.pydata.org)
-[![R](https://img.shields.io/badge/R-ggplot2-blue)](https://ggplot2.tidyverse.org)
+
 
 An end-to-end data engineering and analytics pipeline built to handle, clean, and visualize messy, real-world clinical drug trial logs. This project takes raw, unformatted patient logs, transforms them into high-quality clinical data datasets, and uncovers actionable insights on drug trial trends.
 
