@@ -59,16 +59,7 @@ implemented scatter plot with linear modelling trends(geom_smooth) to show if th
 
 ### 3. visualization to determine if biological sex alter the drugs impact:
 implemnted demographic faceting (facet_wrap) to indentify if biological sex alter drugs impact
-
 ![Trial Trends Plot](images/trial_trends.png)
-
-
-
-
-
-
-An end-to-end data engineering and analytics pipeline built to handle, clean, and visualize messy, real-world clinical drug trial logs. This project takes raw, unformatted patient logs, transforms them into high-quality clinical data datasets, and uncovers actionable insights on drug trial trends.
-
 
 
 
@@ -81,4 +72,3 @@ Make sure you have both Python (with Pandas) and R installed on your local envir
 Execute the Python script to clean the raw logs and generate the isolated error logs and final clean file.
 ```bash
 python clean_patient_script.py
-
