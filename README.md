@@ -1,5 +1,5 @@
 # -Make-Up-Clinical-Trial-data-pipeline
-This project includes an automated Python pipeline to clean messy clinical logs and using R ggplot2 visualization engine to analyze drug trial trends
+This project includes an automated Python pipeline to clean messy clinical logs using Python(Pandas) and using R ggplot2 visualization engine to analyze drug trial trends
 ## Data Pipeline Architecture
 1. Cleaning & Quality control (Python/Pandas):
  - Standardized uneven patient string keys, (Pt-01 and Pt-02).
