@@ -20,18 +20,27 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 3.  **Transformation:** Cleans types, normalizes string data, and structures the records into a finalized, production-ready dataset (`clean_p_log.xls`).
 4.  **Analytics & Visualization:** Feeds the clean dataset into `Patient_logs_visualization` via R to map out key drug trial trends.
 
-   
 
-2. Visualization & Reporting (R/ggplot2):
- - implemented box plot graph(geom_boxplot) split by Treatment_Group to see if the average blood pressure drops for patients taking Drug A & B compared to patients     on Placebo
- - implemented scatter plot with linear modelling trends(geom_smooth) to show if the drug loses control/efficacy as pateint gets older
- - implemnted demographic faceting (facet_wrap) to indentify if biological sex alter drugs impact
+## 📁 Repository Directory Structure
+📁 Make-Up-Clinical-Trial-data-pipeline/
+│
+├── 📁 images/
+│   
+│  
+│
+├── 📁 data/
+│   ├── 📄 raw_patient_logs.txt
+│   ├── 📁 cleaned/
+│   │   └──  Excel clean_p_log.xls
+│   └── 📁 errors/
+│       ├── 📑 missing_age_rows.xls
+│       └── 📑 missing_p_row.xls
+│
+├── 🐍 clean_patient_script.py
+├── 📊 Patient_logs_visualization.R
+└── 📝 README.md
 
- 3. Patient Directory Breaakdown
- - raw_ptient_logs.txt: uncleaned initial text file logs from clinical database entries
- - clean_patient_logs.py: cleaned automated python script and logic
- - clean_patient_csv: finalized comma sepperated structured dataset
- - patient_logs_visulization.R: R code housing the plotting engine and visualization.
+
 
 
 
@@ -43,24 +52,7 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 
 An end-to-end data engineering and analytics pipeline built to handle, clean, and visualize messy, real-world clinical drug trial logs. This project takes raw, unformatted patient logs, transforms them into high-quality clinical data datasets, and uncovers actionable insights on drug trial trends.
 
----
 
-
----
-
-
-
----
-
-## 📁 Repository Directory Structure
-
-*   `raw_patient_logs.txt` — The initial messy data file directly from clinical entry logs.
-*   `clean_patient_script.py` — The core automated Python cleaning script utilizing Pandas.
-*   `clean_p_log.xls` — The resulting polished dataset used for downstream analysis.
-*   `missing_age_rows.xls` & `missing_p_row.xls` — Isolated error reports generated for data auditing teams.
-*   `Patient_logs_visualization...` — The R script containing the visualization engine.
-
----
 
 ## 📊 Analytics & Key Findings
 
