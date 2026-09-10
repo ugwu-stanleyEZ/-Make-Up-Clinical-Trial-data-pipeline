@@ -54,7 +54,8 @@ This project simulates a realistic data-cleaning pipeline that isolates corrupte
 implemented box plot graph(geom_boxplot) split by Treatment_Group to see if the average blood pressure drops for patients taking Drug A & B compared to patients     on Placebo
 
 #### 2. Visualizing if blood presure climbs as the patients get older:
-![Patient Age Distribution](images/age_distribution.png) 
+![Patient Age Distribution](-Make-Up-Clinical-Trial-data-pipeline
+/IMG_5147.png) 
 implemented scatter plot with linear modelling trends(geom_smooth) to show if the drug loses control/efficacy as pateint gets older
 
 ### 3. visualization to determine if biological sex alter the drugs impact:
