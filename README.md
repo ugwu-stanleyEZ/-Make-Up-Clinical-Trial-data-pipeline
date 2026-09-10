@@ -4,7 +4,7 @@
 [![Pandas](https://img.shields.io/badge/Library-Pandas-orange)](https://pandas.pydata.org)
 [![R](https://img.shields.io/badge/R-ggplot2-blue)](https://ggplot2.tidyverse.org)
 
-This project includes an automated Python pipeline to clean messy clinical logs using Python(Pandas) and using R ggplot2 visualization engine to analyze drug trial trends
+This project includes an automated Python pipeline to clean messy clinical logs using Python(Pandas) and using R ggplot2 engine to create visualization of the drug trial trends
 
 
 ## 📌 Project Overview & The Challenge
